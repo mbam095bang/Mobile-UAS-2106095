@@ -1,0 +1,46 @@
+name: kelompok_7
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+ sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+ flutter:
+  sdk: flutter
+ cupertino_icons: ^1.0.6
+ iconly: ^1.0.1
+ google_fonts: ^6.1.0
+ flutter_native_splash: ^2.4.0
+ curved_navigation_bar: ^1.0.6
+ intl: ^0.17.0
+
+dev_dependencies:
+ flutter_test:
+  sdk: flutter
+ flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+ android: "launcher_icon"
+ ios: true
+ image_path: "assets/images/icon.png"
+ flutter_lints: ^3.0.0
+
+flutter:
+ uses-material-design: true
+ assets:
+  - assets/images/
+
+flutter_native_splash:
+ android: true
+ ios: true
+ web: false
+
+ color: "#ffffff"
+ image: assets/images/logo13.png
+ branding: assets/images/branding.png
+
+ android_12:
+  color: "#ffffff"
+  image: assets/images/logo13.png
+  branding: assets/images/branding.png
